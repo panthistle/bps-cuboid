@@ -35,7 +35,7 @@ def get_seam_ids(apts, bpts, nvs, sid = 0):
             - nvs = integer, total points
             - sid = integer, start index
         OUTPUT:
-            - ids = of boundary-vertex indices
+            - ids = list of boundary-vertex indices
         NOTES: 
             - general purpose helper function (quad-based, rectangular planes only)
             - does NOT check the validity of input data
